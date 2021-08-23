@@ -1,0 +1,17 @@
+Two Color Scope Procedure
+Written By: Miranda Carson
+Last Updated: 8/23/2021
+
+Hardware
+Verify Laser alignment using “beam walking” technique and laser target
+Connect Laptop to FPGA and Miniscope DAQ via USB
+Press Reset button on tinyFPGA
+Power Despeckler with low voltage power supply at 3.3VDC
+
+Bonsai
+Run your preferred Bonsai program containing the “UCLAMiniscopeV3” node.
+I have provided the “2CS_video_splitter.bonsai” program, which contains two workflows to either split recorded video, or to split live recording.
+
+Laser Controller
+Open “2CS FPGA Laser Controller” project in Atom + Apio, or your preferred compiler
+Upload “top.v” to FPGA
