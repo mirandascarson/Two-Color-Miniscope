@@ -10,7 +10,8 @@ Power Despeckler with low voltage power supply at 3.3VDC
 
 Bonsai
 Run your preferred Bonsai program containing the “UCLAMiniscopeV3” node.
-I have provided the “2CS_video_splitter.bonsai” program, which contains two workflows to either split recorded video, or to split live recording.
+I have provided the “2CS_video_splitter.bonsai” program, which contains two
+workflows to either split recorded video, or to split live recording.
 
 Laser Controller
 Open “2CS FPGA Laser Controller” project in Atom + Apio, or your preferred compiler
